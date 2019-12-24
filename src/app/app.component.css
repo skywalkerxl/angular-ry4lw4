@@ -1,0 +1,10 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: palegoldenrod;
+  transition: width 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box:hover {
+  width: 200px;
+}
